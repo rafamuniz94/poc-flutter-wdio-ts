@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "module": "ESNext",
+    "allowJs": true,
+    "types": [
+      "node",
+      "@wdio/globals/types",
+      "expect-webdriverio",
+      "@wdio/jasmine-framework",
+      "@wdio/appium-service"
+    ],
+    "target": "ES6"
+  },
+  "include": ["test/**/*.ts"],
+  "exclude": ["node_modules"]
+}
